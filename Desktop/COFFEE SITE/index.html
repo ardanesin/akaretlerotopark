@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Akaretler Vale</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">Akaretler <span>Vale</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Başlangıç</a></li>
+                <li><a href="#menu">Hakkımızda</a></li>
+                <li><a href="#shop">İletişim</a></li>
+                <li><a href="#contact">Bize Ulaşın</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Akaretler Vale</h2>
+        <p>Aracınızı güvenle park edebileceğiniz kullanıcı dostu otopark sitemizi keşfedin</p>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h3>Hakkımızda</h3>
+            <h4>Akaretler Vale</h4>
+        </div>
+        <div class="menu-content">
+            <div class="hot-coffees">
+                <div class="hot-coffees-image">
+                    <img src="img/bizkimiz.jpg" alt="">
+                </div>
+                <div class="hot-coffees-body">
+                    <h2>Biz Kimiz?</h2>
+                    <label>Yılların verdiği deneyim ve uzmanlıkla, müşterilerimize güvenli ve kullanıcı dostu otopark hizmeti sunmaktayız.</label>
+                </div>
+            </div>
+            <div class="cold-coffees">
+                <div class="cold-coffees-image">
+                    <img src="img/vizyon.jpg" alt="">
+                </div>
+                <div class="cold-coffees-body">
+                    <h2>Vizyonumuz</h2>
+                    <label>Müşteri memnuniyeti odaklı yaklaşımımızı koruyarak, her müşterimizin otopark ihtiyaçlarını karşılamak ve onları güvenle ağırlamak için çalışıyoruz. </label>
+                </div>
+            </div>
+            <div class="frappucino-coffees">
+                <div class="frappucino-coffees-image">
+                    <img src="img/misyon.jpg" alt="">
+                </div>
+                <div class="frappucino-coffees-body">
+                    <h2>Misyonumuz</h2>
+                    <label>Müşterilerimize hızlı, kolay ve güvenli otopark deneyimi sunmayı misyon ediniyoruz.</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---->
+    <div class="shop" id="shop">
+        <div class="shop-header">
+            <h3>İletişim Bilgileri</h3>
+            <h4></h4>
+        </div>
+        <div class="shop-box">
+            <div class="contact-info">
+                <ul>
+                    <li>Telefon Numarası: +90 XXX XXX XX XX</li>
+                    <li>E-mail: example@example.com</li>
+                    <li>Adres: Sinanpaşa, Şair Nedim Cd. No:20 D:E, 34357 Beşiktaş/İstanbul</li>
+                </ul>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6018.444647314124!2d28.9974685!3d41.042267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7a02ae9b4c3%3A0x5b4cc7a87348076e!2sKuleler%20Otopark!5e0!3m2!1str!2str!4v1684773420179!5m2!1str!2str" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+<!-- -->
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="img/bg-image.jpeg">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form id="my-form" action="https://formspree.io/f/myyaazoo" method="POST">
+                    <h2>Bize Ulaşın</h2>
+                    <div class="form-content">
+                        <input type="text" name="name" autocomplete="name" required>
+                        <span></span>
+                        <label>Adınız & Soyadınız</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="number" name="phone" required>
+                        <span></span>
+                        <label>Telefon Numaranız</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" name="email" required>
+                        <span></span>
+                        <label>E-Mail Adresiniz</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="text" name="message" required>
+                        <span></span>
+                        <label>Öneri ve Şikayetleriniz</label>
+                    </div>
+                    <button type="submit" id="my-form-button">Gönder</button>
+                    <p id="my-form-status"></p>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="copyright">
+                <label>Copyright &copy; 2023</label>
+            </div>
+            <div class="brand">
+                <label>Akaretler<span>Vale</span></label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var form = document.getElementById("my-form");
+        
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("my-form-status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+          }).then(response => {
+            if (response.ok) {
+              status.innerHTML = "Thanks for your submission!";
+              form.reset()
+            } else {
+              response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                  status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                } else {
+                  status.innerHTML = "Oops! There was a problem submitting your form"
+                }
+              })
+            }
+          }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+</body>
+
+</html>
